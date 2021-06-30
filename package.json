@@ -1,0 +1,20 @@
+{
+  "name": "yoongia",
+  "version": "1.0.0",
+  "description": "yoongi husbando",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shreya Shah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "node-popup": "^0.1.14",
+    "path": "^0.12.7",
+    "python-shell": "^3.0.0"
+  }
+}
