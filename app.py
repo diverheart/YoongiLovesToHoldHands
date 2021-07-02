@@ -15,5 +15,5 @@ try:
 
 
 except Exception as e:
-	print("404")
+	print(e)
 	sleep(5)
