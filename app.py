@@ -1,19 +1,21 @@
 import tweepy
 import sys
 
-auth = tweepy.OAuthHandler("LuCZmMxdQxO8eKMAOPSfrjTJc", "O7jytpxR2yrE2kPtP13lzojX4puw4wgMlQLBJFaTK7rIW1x0kA")
-auth.set_access_token("1404195853791727617-H5yscWllzJ9Re3P39MxRYNW1882Gqk", "mwIxOyGPhImG2qaPkWeVK03KOFgy9zLKd8ZWiUztSFkYO")
+auth = tweepy.OAuthHandler("6odotTB8lJ947JTbPDQJeT9sU", "vrjFYbLNBy4lPK06Q1LI1OcwBaIN27Cy7t2udctTDLBWSAqw0U")
+auth.set_access_token("1404195853791727617-pZEwUcsp6kTENeiJwr8uln8Iqazqnh", "fSYC5HfDA8LZG7dX9NvIpL9ksIBWAoNPVCGl9FklwsRC6")
 api = tweepy.API(auth)
 
 
 try:
-	tweet="Yoongi is holding your hand " + sys.argv[1] 
+	tweet="Yoongi is holding your hand " +sys.argv[1] 
 	api.update_status(status =(tweet))
 	print(tweet)
-	sleep(5)
+	sleep(3)
+	
+
 
 
 
 except Exception as e:
-	print(e)
-	sleep(5)
+	print("404")
+	sleep(15)
