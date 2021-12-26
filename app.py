@@ -1,8 +1,8 @@
 import tweepy
 import sys
 
-auth = tweepy.OAuthHandler("CHdEUrpOMh6xSrCz95yYOqmqN", "eL0lZB6ZqlsTIUB5TXeazKvaBSbEtFNFpI2vzQlRZXuX6jOmm7")
-auth.set_access_token("1404195853791727617-wVLtoxDwNbOdbEjdg5bWWwn2c7j1Mj", "OITRMwh2dtiGxbrTtOa33AOynqt6NYHgVNqUxegMipS82")
+auth = tweepy.OAuthHandler("gwqXIH4fqmYMv9aZLwk2cXVlI", "W5SE4xoUSG0qw2HUa4XfL7vKjXyAHFrI2P7CqLdcVLm68GWXl9")
+auth.set_access_token("1404195853791727617-xo6abiRTbmIboJl4Xvq36XHpK7WvdH", "Mt3RE9sFEUoysCPtGc3gN0zenSmLxW3ZS0soKk6YYrRX0")
 api = tweepy.API(auth)
 
 
